@@ -18,9 +18,9 @@ LR = 1e-5
 
 def process(s):
     re = s.replace("\n", " ")
-    re = res.strip().split(" ")
-    re = [word.lower() for word in res]
-    re = " ".join(res)
+    re = re.strip().split(" ")
+    re = [word.lower() for word in re]
+    re = " ".join(re)
     return re
 
 def tokenize(data):
